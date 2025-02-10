@@ -54,7 +54,7 @@ const STLDetails: React.FC<{ stl: Record<string, any> }> = ({ stl }) => {
 
 const Sidebar: React.FC<{ stl: Record<string, any>, stats: Record<string, number> }> = ({ stl, stats }) => {
   return (
-    <div className="flex flex-col md:p-2 bg-white z-20 md:w-64 w-full b-t-r-2 h-64 md:h-auto">
+    <div className="flex flex-col md:p-2 bg-primary z-20 md:w-64 w-full b-t-r-2 h-64 md:h-auto">
       <header className='w-full p-2 border-solid border-b-2 border-gray-600 '>
         {stl ?
           <div className="flex flex-row items-center gap-2">
